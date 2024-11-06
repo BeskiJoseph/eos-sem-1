@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media - Trendy Closet</title>
+    
+    <!-- Include all CSS files here as per above step -->
+    <!-- Normalize.css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Trendy Closet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="multimedia.html">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Multimedia Content</h2>
+        
+        <!-- Two Column Layout -->
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <!-- Video Section -->
+                <div class="mb-4">
+                    <h4>Product Showcase Video</h4>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls class="embed-responsive-item">
+                            <source src="vedio/Brand Root _ Multi-Brand Fashion Store _ Sirsa _ Promotional Video ad.mp4"  type="video/mp4" >
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <!-- Audio Section -->
+                <div class="mb-4">
+                    <h4>Customer Testimonials</h4>
+                    <audio controls class="w-100">
+                        <source src="audio/Audio testimonial from another happy client!.mp3" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+
+                <!-- PDF Link -->
+                <div>
+                    <h4>Download Our Latest Catalog</h4>
+                    <a href="PDF/Catalog.pdf" target="_blank" class="btn btn-outline-primary">Download Catalog (PDF)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <div class="footer_con">
+    <footer class="bg-gradient text-white text-center py-4 ">
+        <p>&copy; 2024 Trendy Closet &bull; All rights reserved.</p>
+    </footer>
+</div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

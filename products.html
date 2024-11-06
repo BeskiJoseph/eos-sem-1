@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Trendy Closet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Trendy Closet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="multimedia.html">Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Product Section -->
+    <section class="product-section py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Sidebar with Image Links -->
+                <aside class="col-md-3 mb-4">
+                    <h5 class="text-primary">Shop by Category</h5>
+                    <ul class="list-unstyled product-sidebar">
+                        <li><a href="multimedia.html"><img src="image/media.jpg" width="50" alt="T-Shirts"> Media</a></li>
+                        <li><a href="#shirt"><img src="image/t-shirt.jpeg" width="50" alt="T-Shirts"> T-Shirts</a></li>
+                        <li><a href="#jean"><img src="image/jeans.jpg" width="50" alt="Jeans"> Jeans</a></li>
+                        <li><a href="#shoes"><img src="image/shoe.jpg" width="50" alt="Shoes"> Shoes</a></li>
+                        <li><a href="#asso"><img src="image/acceroise.jpg" width="50" alt="Accessories"> Accessories</a></li>
+                    </ul>
+                </aside>
+
+                <!-- Main Content with Product Grid -->
+                <main class="col-md-9">
+                    <h2 class="text-center mb-4 section-title">Our Latest Collection</h2>
+                    <div class="row">
+                        <!-- Product Card 1 -->
+                        <div class="col-md-6 mb-4" id="shirt">
+                            <div class="card product-card shadow-sm" id="card1">
+                                <img src="image/t-shirt.jpeg" class="card-img-top" alt="Stylish T-Shirt">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Stylish T-Shirt</h5>
+                                    <p class="card-text">$19.99</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Card 2 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card product-card shadow-sm">
+                                <img src="image/j jeans.jpg" class="card-img-top" height="370px" alt="Denim Jeans">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Denim Jeans</h5>
+                                    <p class="card-text">$29.99</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Card 3 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card product-card shadow-sm">
+                                <img src="image/shoe.jpg" class="card-img-top" height="370px" alt="Casual Sneakers">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Casual Sneakers</h5>
+                                    <p class="card-text">$39.99</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Product Card 4 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card product-card shadow-sm">
+                                <img src="image/jacket.jpg" class="card-img-top" height="370px" alt="Stylish Jacket">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Stylish Jacket</h5>
+                                    <p class="card-text">$49.99</p>
+                                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+  <!-- Gradient Footer with Character Entity -->
+    <footer class="bg-gradient text-white text-center py-4" >
+        <p>&copy; 2024 Trendy Closet &bull; All rights reserved.</p>
+    </footer>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
